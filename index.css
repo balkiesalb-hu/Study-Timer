@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: black; */
+}
+.main-box{
+    width: 100%;
+    height: 100vh;
+    background-image: url(image/pexels-pixabay-417192.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    min-width: 80%;
+    min-height: 50vh;
+    background-color: rgba(0, 0, 0, 0.429);
+    color: white;
+    padding: 2rem;
+    border: 5px double rgba(255, 255, 255, 0.559);
+    border-radius: 5px;
+
+}
+.text-box{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.encourge-message{
+    font-size: 35px;
+}
+.text-p{
+    /* #aea8ba
+    /* color:#690000; */
+    /* color:#aea8ba; */
+    /* color: #befcfe; */
+    color: #ff8946;
+}
+.timer-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px 0px;
+}
+.hour-box , .minute-box , .second-box {
+    /* background-color: #aea8ba; */
+    background-color: white;
+    /* background-color: #1b1675; */
+    /* background-color: #ff8946; */
+    /* background-color: #68abae; */
+    color: #000 ;
+    font-size: 34px;
+    width: 160px;
+    font-weight: 600;
+    border: 6px double #ff8a4673 ;
+    border-radius: 105px;
+    padding: 40px ;
+    box-shadow:0px 0px 20px 5px #ff8a46 ;
+    /* min-width: 150px; */
+}
+.nam{
+    margin-top: 5px;
+    font-size: 20px;
+    color:#32777a ;
+}
+span{
+    font-weight: bold;
+    font-size: 20px;
+}
+hr{
+  color: rgba(255, 192, 203, 0.285);
+  margin: 10px 30px;
+}
+.btnlist{
+    margin-top: 30px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: end;
+    gap: 10px;
+    flex-wrap: nowrap;
+}
+button{
+    font-size: 16px;
+    font-weight: 600;
+    min-width: 200px;
+    padding: 10px 0px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    /* background-color:#690000; */
+    background-color: #32777a;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 10px -5px white;
+}
+button:hover{
+    transform: scale(0.95);
+}
